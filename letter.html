@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Letter Template</title>
+    <style>
+        body {
+            background-color: yellow;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .letter {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: yellow;
+        }
+        .title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .addresses {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .from-address,
+        .to-address {
+            width: 48%;
+        }
+        .subject,
+        .date {
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        .ending {
+            text-align: left;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="letter">
+    <div class="title">
+        <h2>University Title</h2>
+    </div>
+
+    <div class="addresses">
+        <div class="from-address">
+            <p>Your Address:</p>
+            <p>Your Name</p>
+            <p>Your Street Address</p>
+            <p>Your City, State, Zip Code</p>
+        </div>
+
+        <div class="to-address">
+            <p>Recipient's Address:</p>
+            <p>Recipient's Name</p>
+            <p>Recipient's Street Address</p>
+            <p>Recipient's City, State, Zip Code</p>
+        </div>
+    </div>
+
+    <div class="subject">
+        <p>Subject: Your Subject</p>
+        <p>Date: January 1, 2023</p>
+    </div>
+
+    <p>Dear [Recipient's Name],</p>
+
+    <p>Your letter content goes here...</p>
+
+    <div class="ending">
+        <p>Sincerely,</p>
+        <p>Thank you,</p>
+        <p>Your Name</p>
+        <p>Your Street Address</p>
+        <p>Your City, State, Zip Code</p>
+    </div>
+</div>
+
+</body>
+</html>
